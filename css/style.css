@@ -42,7 +42,21 @@ nav img {
     margin-right: 12px;
 }
 
-/* aside */
+/* main - aside */
+
+.side-menù {
+    max-width: 150px;
+    width: 100%;
+    background-color: #051E34;
+    color: white;
+}
+
+.comandi-gen {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 15px;
+}
 
 /* main */
 
