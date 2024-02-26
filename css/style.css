@@ -45,7 +45,7 @@ nav img {
 /* main - aside */
 
 .side-menù {
-    max-width: 150px;
+    max-width: 180px;
     width: 100%;
     background-color: #051E34;
     color: white;
@@ -58,7 +58,7 @@ nav img {
     padding-top: 15px;
 }
 
-/* main */
+/* main - data */
 
 /******************* UTILITY ********************/
 .ristretta {
@@ -75,6 +75,10 @@ nav .ristretta .row {
 
 nav .row {
     background-color: white;
+}
+
+.generic-info {
+    background-color: #1B72E8;
 }
 
 
