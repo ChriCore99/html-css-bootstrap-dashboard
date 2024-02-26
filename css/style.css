@@ -17,3 +17,51 @@ a {
     text-decoration: none;
     color: currentColor;
 }
+
+/**************** STYLE ******************/
+
+/* nav bar */
+nav .container {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav img {
+    margin-right: 15px;
+    padding-left: 20px;
+}
+
+.ricerca {
+    background-color: #E5E5E5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+/* aside */
+
+/* main */
+
+/******************* UTILITY ********************/
+.ristretta {
+    display: contents;
+}
+
+nav section {
+    background-color: #F8F9FA;
+}
+
+nav .ristretta .row {
+    padding-right: 10px;
+}
+
+nav .row {
+    background-color: white;
+}
+
+
+/* MEDIA QUERY */
