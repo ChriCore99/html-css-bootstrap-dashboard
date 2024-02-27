@@ -36,7 +36,7 @@ nav .container {
     border-radius: 8px;
 }
 
-.logo {
+.col-auto {
     display: flex;
     align-items: center;
 }
@@ -50,7 +50,7 @@ nav .col-auto ul {
 /* main - aside */
 
 .side-menù {
-    max-width: 180px;
+    max-width: 70px;
     width: 100%;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
@@ -74,6 +74,10 @@ nav .col-auto ul {
 
 /******************* UTILITY ********************/
 
+.scomparsa {
+    display: none;
+}
+
 nav section {
     background-color: #F8F9FA;
 }
@@ -84,6 +88,10 @@ nav .ristretta .row {
 
 nav .row {
     background-color: white;
+}
+
+.mini-logo {
+    height: 35px;
 }
 
 .generic-info {
@@ -102,3 +110,24 @@ nav .row {
 
 /* MEDIA QUERY */
 
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .mini-logo {
+        display: none;
+    }
+
+    .scomparsa {
+        display: inline-block;
+    }
+
+    .side-menù {
+        max-width: 140px;
+    }
+}
