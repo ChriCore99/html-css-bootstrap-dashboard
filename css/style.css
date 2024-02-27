@@ -69,7 +69,26 @@ nav .col-auto ul {
     padding-top: 15px;
 }
 
+.attivazione:hover {
+    background-color: lightgray;
+    opacity: 1;
+    width: fit-content;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
 /* main - data */
+
+.form-button {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bordo-offcanva {
+    border: 3px solid white;
+    border-radius: 10px;
+}
 
 
 /******************* UTILITY ********************/
@@ -90,12 +109,17 @@ nav .row {
     background-color: white;
 }
 
+.fa-bell {
+    cursor: pointer;
+}
+
 .mini-logo {
     height: 35px;
 }
 
 .generic-info {
     background-color: #1B72E8;
+    color: white;
 }
 
 .col-8 ul,
@@ -111,16 +135,35 @@ nav .row {
     font-size: 15px;
 }
 
+.ricerca span {
+    font-size: 15px;
+}
+
+.ricerca i {
+    cursor: pointer;
+}
+
+.inserimento-dati {
+    width: 100%;
+}
+
 
 /* MEDIA QUERY */
 
 @media (min-width: 576px) {
+    .offcanvas.offcanvas-end.show {
+        width: 100%;
+    }
 
 }
 
 @media (min-width: 768px) {
     .generic-info .col-4 {
         width: calc(100% / 3);
+    }
+
+    .offcanvas.offcanvas-end.show {
+        width: 740px;
     }
 }
 
@@ -151,5 +194,9 @@ nav .row {
 
     .tabelle-dati .col-4 {
         width: calc(100% / 3);
+    }
+
+    .offcanvas.offcanvas-end.show {
+        width: 960px;
     }
 }
