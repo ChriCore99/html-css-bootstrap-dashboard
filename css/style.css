@@ -107,6 +107,10 @@ nav .row {
     padding-right: 15px;
 }
 
+.card-con-schema p {
+    font-size: 15px;
+}
+
 
 /* MEDIA QUERY */
 
@@ -115,7 +119,9 @@ nav .row {
 }
 
 @media (min-width: 768px) {
-
+    .generic-info .col-4 {
+        width: calc(100% / 3);
+    }
 }
 
 @media (min-width: 992px) {
@@ -129,5 +135,21 @@ nav .row {
 
     .side-menù {
         max-width: 140px;
+    }
+
+    .generic-info .col-6 {
+        width: calc(100% / 2);
+    }
+
+    .generic-info .col-3 {
+        width: calc(100% / 4);
+    }
+
+    .tabelle-dati .col-8 {
+        width: calc((100% / 3) * 2);
+    }
+
+    .tabelle-dati .col-4 {
+        width: calc(100% / 3);
     }
 }
