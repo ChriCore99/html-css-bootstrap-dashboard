@@ -9,125 +9,132 @@
     <title>Document</title>
 </head>
 <body>
-
-    <!-- nav bar -->
-    <nav>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col ristretta">
-                        <img src="./img/logo.svg" alt="">
-                    </div>
-                    <div class="col ricerca">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="col ristretta">
-                        <div class="row">
-                            <div class="col">ciao</div>
-                            <div class="col">ciao</div>
+    <div class="app d-flex flex-column vh-100">
+        <!-- nav bar -->
+        <nav>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-auto logo">
+                            <img src="./img/logo.svg" alt="">
+                        </div>
+                        <div class="col ricerca">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="col-auto">
+                            <ul class="d-flex">
+                                <li class="scomparsa">
+                                    <i class="fa-solid fa-list-ul"></i>
+                                </li>
+                                <li class="scomparsa">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                </li>
+                                <li class="scomparsa">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </nav>
+            </section>
+        </nav>
 
     <!-- main -->
-    <main>
+        <main class="flex-grow-1 d-flex">
         <!-- side bar menù -->
-        <section>
-            <div>
-                <div class="row">
-                    <div class="col side-menù">
-                        <div>
-                            <ul class="comandi-gen">
-                                <li>
-                                    <i class="fa-solid fa-house" style="color: #ffffff;"></i> <span>Home</span>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i> <span>Stats</span>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-signal" style="color: #ffffff;"></i> <span>Signal</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
+            <div class="side-menù">
+                <div>
+                    <ul class="comandi-gen">
+                        <li>
+                            <i class="fa-solid fa-house" style="color: #ffffff;"></i> <span>Home</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i> <span>Stats</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-signal" style="color: #ffffff;"></i> <span>Signal</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-gear" style="color: #ffffff;"></i> <span>Admin</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- main data -->
+            <div class="data-analisi flex-grow-1">
+                <div class="container-fluid">
+                    <div class="row generic-info mb-3">
+                        <div class="col-6">hey</div>
+                        <div class="col-3">hey</div>
+                        <div class="col-3">hey</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
                             <ul>
                                 <li>
-                                    <i class="fa-solid fa-gear" style="color: #ffffff;"></i> <span>Admin</span>
+                                    <div class="card">
+                                        <div class="card-header fs-3 fw-semibold">
+                                            Prossime Classi
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        </div>
                                 </li>
+                                <li>salve</li>
                             </ul>
                         </div>
-                    </div>
-
-                    <!-- main data -->
-                    <div class="col data-analisi">
-                        <div class="row generic-info mb-3">
-                            <div class="col-6">hey</div>
-                            <div class="col-3">hey</div>
-                            <div class="col-3">hey</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-8">
-                                <ul>
-                                    <li>
-                                        <div class="card">
-                                            <div class="card-header fs-3 fw-semibold">
-                                              Prossime Classi
-                                            </div>
-                                            <ul class="list-group list-group-flush">
-                                              <li class="list-group-item">An item</li>
-                                              <li class="list-group-item">A second item</li>
-                                              <li class="list-group-item">A third item</li>
-                                              <li class="list-group-item">An item</li>
-                                              <li class="list-group-item">A second item</li>
-                                              <li class="list-group-item">A third item</li>
-                                              <li class="list-group-item">An item</li>
-                                              <li class="list-group-item">A second item</li>
-                                              <li class="list-group-item">A third item</li>
-                                            </ul>
-                                          </div>
-                                    </li>
-                                    <li>salve</li>
-                                </ul>
-                            </div>
-                            <div class="col-4">
-                                <ul>
-                                    <li>
-                                        <div class="card">
-                                            <div class="card-header fs-3 fw-semibold">
-                                              Todo
-                                            </div>
-                                            <ul class="list-group list-group-flush">
-                                              <li class="list-group-item">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item">
-                                                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
-                                                      <label class="form-check-label stretched-link" for="firstCheckboxStretched">Kickoff Nuove Classi</label>
-                                                    </li>
-                                                    <li class="list-group-item">
-                                                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
-                                                      <label class="form-check-label stretched-link" for="secondCheckboxStretched">Lezione so Bootstrap 5 in classe #75</label>
-                                                    </li>
-                                                    <li class="list-group-item">
-                                                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
-                                                      <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Controllare username Ghithub studenti</label>
-                                                    </li>
-                                                  </ul>
-                                              </li>
-                                            </ul>
-                                          </div>
-                                    </li>
-                                    <li>hello</li>
-                                </ul>
-                            </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>
+                                    <div class="card">
+                                        <div class="card-header fs-3 fw-semibold">
+                                            Todo
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                                                    <label class="form-check-label stretched-link" for="firstCheckboxStretched">Kickoff Nuove Classi</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                                                    <label class="form-check-label stretched-link" for="secondCheckboxStretched">Lezione so Bootstrap 5 in classe #75</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+                                                    <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Controllare username Ghithub studenti</label>
+                                                </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        </div>
+                                </li>
+                                <li>hello</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </main>
+    </div>
     
 </body>
 </html>

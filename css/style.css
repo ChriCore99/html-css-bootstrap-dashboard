@@ -29,17 +29,22 @@ nav .container {
     padding-bottom: 15px;
 }
 
-nav img {
-    margin-right: 15px;
-    padding-left: 20px;
-}
-
 .ricerca {
     background-color: #E5E5E5;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 8px;
-    margin-right: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .col-auto ul {
+    padding: 0;
+    margin: 0;
+    gap: 10px;
 }
 
 /* main - aside */
@@ -68,9 +73,6 @@ nav img {
 
 
 /******************* UTILITY ********************/
-.ristretta {
-    display: contents;
-}
 
 nav section {
     background-color: #F8F9FA;
@@ -99,3 +101,4 @@ nav .row {
 
 
 /* MEDIA QUERY */
+
