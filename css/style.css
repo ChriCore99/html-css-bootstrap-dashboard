@@ -90,6 +90,11 @@ nav .col-auto ul {
     border-radius: 10px;
 }
 
+.pillola {
+    background-color: #166BBA;
+    border-radius: 15px;
+}
+
 
 /******************* UTILITY ********************/
 
@@ -174,6 +179,10 @@ nav .row {
 
     .scomparsa {
         display: inline-block;
+    }
+
+    .raccolta-btns {
+        display: none;
     }
 
     .side-menù {
